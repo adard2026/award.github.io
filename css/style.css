@@ -60,3 +60,21 @@ footer {
     display: block;
   }
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.site-logo {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .site-logo {
+    max-width: 420px;
+  }
+}
